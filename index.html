@@ -1,0 +1,76 @@
+
+
+<div class="container">
+    <h1> TRR BANK🏦🏧     
+      ACCOUNT MANAGEMENT SYSTEM</h1> 
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+    <!-- Add Account Section -->
+    <div class="section" id="addAccountSection">
+        <h2>Add Account</h2>
+        <form id="accountForm">
+            <label for="name">Account Holder Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="accountNumber">Account Number:</label>
+            <input type="number" id="accountNumber" required>
+
+            <label for="balance">Initial Balance:</label>
+            <input type="number" id="balance" required>
+
+            <button type="submit">Add Account</button>
+        </form>
+    </div>
+
+    <!-- Deposit/Withdraw Section -->
+    <div class="section" id="transactionSection">
+        <h2>Deposit/Withdraw Funds</h2>
+        <form id="transactionForm">
+            <label for="transactionAccountNumber">Account Number:</label>
+            <input type="number" id="transactionAccountNumber" required>
+
+            <label for="transactionAmount">Amount:</label>
+            <input type="number" id="transactionAmount" required>
+
+            <label for="transactionType">Transaction Type:</label>
+            <select id="transactionType" required>
+                <option value="deposit">Deposit</option>
+                <option value="withdraw">Withdraw</option>
+            </select>
+
+            <button type="submit">Execute Transaction</button>
+        </form>
+        <p id="transactionMessage"></p>
+    </div>
+
+    <!-- View Balance Section -->
+    <div class="section" id="viewBalanceSection">
+        <h2>View Balance</h2>
+        <form id="viewBalanceForm">
+            <label for="viewBalanceAccountNumber">Account Number:</label>
+            <input type="number" id="viewBalanceAccountNumber" required>
+
+            <button type="submit">View Balance</button>
+        </form>
+        <p id="balanceMessage"></p>
+    </div>
+
+    <!-- Accounts List Section -->
+    <div class="section" id="viewAccountsSection">
+        <h2>Accounts List</h2>
+        <table id="accountsTable">
+            <thead>
+                <tr>
+                    <th>Account Holder Name</th>
+                    <th>Account Number</th>
+                    <th>Balance</th>
+                </tr>
+            </thead>
+<script src="script.js"></script>
+
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
