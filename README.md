@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 📌 Project Title
-TRR Bank Account Management System
+Bank Account Management System
 
 ## 📝 Project Description
 This project is a simple, interactive banking web application built with plain HTML, CSS, and JavaScript. It allows users to add bank accounts, perform deposits and withdrawals, view balances, and see the full list of accounts in a dynamic table. The application is implemented as a front-end-only system and uses in-memory JavaScript data rather than a backend database.
@@ -45,9 +45,6 @@ Bank Management System/
 3. Use the “Deposit/Withdraw Funds” form to update an account balance.
 4. Use the “View Balance” form to retrieve the current balance.
 5. Review the live account list in the table as data changes.
-
-## 🤖 Machine Learning Model Details
-No machine learning model is implemented in this project.
 
 ## 📊 Dataset Information
 A CSV file named `fahadrehman07hr-comma-sep-csv.csv` is present in the repository. Its contents include employee-related fields such as satisfaction level, evaluation score, department, and salary. However, the current banking interface does not load or use this file; account data is managed directly in JavaScript during runtime.
