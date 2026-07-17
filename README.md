@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 📌 Project Title
-Bank Account Management System
+Bank Management System
 
 ## 📝 Project Description
 This project is a simple, interactive banking web application built with plain HTML, CSS, and JavaScript. It allows users to add bank accounts, perform deposits and withdrawals, view balances, and see the full list of accounts in a dynamic table. The application is implemented as a front-end-only system and uses in-memory JavaScript data rather than a backend database.
